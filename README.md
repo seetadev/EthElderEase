@@ -4,36 +4,34 @@ ElderEase is an AI-powered concierge that leverages Amazon Bedrock, AgentKit, Ne
 🧩 Tech Stack & Architecture
 
 1️⃣ AI-Powered Concierge & Automation (Amazon Bedrock + LLMs)
-Amazon Bedrock Agents power ElderEase’s concierge, handling service requests, scheduling, and real-time decision-making.
-Uses RAG (Retrieval-Augmented Generation) with Amazon Knowledge Bases to provide personalized responses based on elderly users' preferences, past interactions, and care needs.
-Custom fine-tuned LLMs run on Bedrock, trained on elder care best practices, home maintenance data, and emergency protocols.
-Hacky Trick:
- 🔹 Dynamic AI workflows: Using Amazon Bedrock’s orchestration capabilities, we created "chain-of-thought" workflows, allowing AI agents to reason step-by-step before taking action.
+- Amazon Bedrock Agents power ElderEase’s concierge, handling service requests, scheduling, and real-time decision-making.
+- Uses RAG (Retrieval-Augmented Generation) with Amazon Knowledge Bases to provide personalized responses based on elderly users' preferences, past interactions, and care needs.
+- Custom fine-tuned LLMs run on Bedrock, trained on elder care best practices, home maintenance data, and emergency protocols.
+- Dynamic AI workflows: Using Amazon Bedrock’s orchestration capabilities, we created "chain-of-thought" workflows, allowing AI agents to reason step-by-step before taking action.
 
 2️⃣ Web3 Payments & Smart Contracts (AgentKit + Ethereum + Filecoin)
-AgentKit enables seamless, gas-efficient payments for services via FIL, ETH, or stablecoins.
-Smart contract escrow system ensures that payments are held until AI agents verify service completion.
-Uses EigenLayer AVS (Hyperlane, Gaia) for trustless verification of completed tasks before releasing payments.
-Hacky Trick:
- 🔹 Voice-Activated Web3 Payments: We connected Alexa Skills to AgentKit, enabling seniors to pay service providers with "Alexa, confirm my home cleaning payment."
+- AgentKit enables seamless, gas-efficient payments for services via FIL, ETH, or stablecoins.
+- Smart contract escrow system ensures that payments are held until AI agents verify service completion.
+- Uses EigenLayer AVS (Hyperlane, Gaia) for trustless verification of completed tasks before releasing payments.
+- Voice-Activated Web3 Payments: We connected Alexa Skills to AgentKit, enabling seniors to pay service providers with "Alexa, confirm my home cleaning payment."
 
 3️⃣ Secure & P2P AI Communication (Nethermind’s dotnet libp2p)
-AI agents communicate directly using libp2p’s P2P networking stack instead of relying on centralized APIs.
-Enables secure, low-latency service coordination between caregivers, cleaning staff, and maintenance teams.
-Hacky Trick:
- 🔹 No Centralized API Calls: Using Nethermind’s dotnet libp2p, AI agents send service requests, confirm payments, and exchange status updates without ever touching centralized cloud APIs.
+- AI agents communicate directly using libp2p’s P2P networking stack instead of relying on centralized APIs.
+- Enables secure, low-latency service coordination between caregivers, cleaning staff, and maintenance teams.
+- No Centralized API Calls: Using Nethermind’s dotnet libp2p, AI agents send service requests, confirm payments, and exchange status updates without ever touching centralized cloud APIs.
 
 4️⃣ AI-Powered Computer Vision & Emergency Alerts (FFmpeg + TinyYOLO + IPFS + Ethereum)
 ElderEase’s home monitoring system uses cameras (ONVIF, RTSP, HTTP, iOS) with FFmpeg and TinyYOLO AI models to detect:
  ✅ Falls or accidents
  ✅ Intruders or unexpected movement
  ✅ Leaking pipes, fire hazards, or broken appliances
+
 If a critical event is detected, AI agents generate an alert, which is:
-Saved on IPFS
-Hashed and stored on Ethereum using the iOS device UUID as the lookup key
-Broadcasted via EigenLayer AVS (Witness Chain) for decentralized verification
-Hacky Trick:
- 🔹 No Cloud Storage Needed: Instead of relying on AWS or Google Cloud for event logs, ElderEase stores alarms directly on IPFS, ensuring privacy and censorship resistance.
+- Saved on IPFS
+- Hashed and stored on Ethereum using the iOS device UUID as the lookup key
+- Broadcasted via EigenLayer AVS (Witness Chain) for decentralized verification
+
+No Cloud Storage Needed: Instead of relying on AWS or Google Cloud for event logs, ElderEase stores alarms directly on IPFS, ensuring privacy and censorship resistance.
 
 5️⃣ EigenLayer AVS for On-Chain Verification (Hyperlane + Gaia + Opacity)
 ElderEase integrates EigenLayer AVSs for decentralized verification of services and alarms:
