@@ -22,9 +22,9 @@ ElderEase is an AI-powered concierge that leverages Amazon Bedrock, AgentKit, Ne
 
 4️⃣ AI-Powered Computer Vision & Emergency Alerts (FFmpeg + TinyYOLO + IPFS + Ethereum)
 ElderEase’s home monitoring system uses cameras (ONVIF, RTSP, HTTP, iOS) with FFmpeg and TinyYOLO AI models to detect:
- ✅ Falls or accidents
- ✅ Intruders or unexpected movement
- ✅ Leaking pipes, fire hazards, or broken appliances
+ -  Falls or accidents
+ -  Intruders or unexpected movement
+ -  Leaking pipes, fire hazards, or broken appliances
 
 If a critical event is detected, AI agents generate an alert, which is:
 - Saved on IPFS
@@ -35,9 +35,9 @@ No Cloud Storage Needed: Instead of relying on AWS or Google Cloud for event log
 
 5️⃣ EigenLayer AVS for On-Chain Verification (Hyperlane + Gaia + Opacity)
 ElderEase integrates EigenLayer AVSs for decentralized verification of services and alarms:
- ✅ Hyperlane: Verifies service execution across chains
- ✅ Gaia: Ensures AI-generated alerts are verifiable and tamper-proof
- ✅ Opacity: Provides on-chain privacy for AI transactions
+ -  Hyperlane: Verifies service execution across chains
+ -  Gaia: Ensures AI-generated alerts are verifiable and tamper-proof
+ -  Opacity: Provides on-chain privacy for AI transactions
 Hacky Trick:
  🔹 EigenLayer AVS as AI Validators: We use Gaia AVS to verify object detection results—ensuring that AI doesn’t falsely trigger alerts due to hallucinations.
 
@@ -48,9 +48,10 @@ Hacky Trick:
  🔹 Custom LLM Indexing: Instead of using a single vector DB, we precompute and cache embeddings for faster responses.
 
 🚀 Key Innovations & Why It’s Exciting
-✅ First AI concierge that combines Bedrock AI + AgentKit Web3 Payments + P2P Networking
- ✅ EigenLayer AVSs for verifiable, trustless service execution
- ✅ Decentralized, AI-driven emergency alerts stored on IPFS
- ✅ Privacy-first, Web3-powered elderly care that removes the need for centralized platforms
+ 
+ AI concierge that combines Bedrock AI + AgentKit Web3 Payments + P2P Networking
+ - EigenLayer AVSs for verifiable, trustless service execution
+ - Decentralized, AI-driven emergency alerts stored on IPFS
+ - Privacy-first, Web3-powered elderly care that removes the need for centralized platforms
 ElderEase isn’t just an AI concierge—it’s a fully autonomous Web3 elder care solution that blends AI, blockchain, and decentralized infrastructure into a seamless experience. 🚀
 
