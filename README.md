@@ -2,6 +2,7 @@
 ElderEase is an AI-powered concierge that leverages Amazon Bedrock, AgentKit, Nethermind, EigenLayer AVS, and libp2p to provide secure, decentralized home assistance and emergency monitoring for seniors.
 
 🧩 Tech Stack & Architecture
+
 1️⃣ AI-Powered Concierge & Automation (Amazon Bedrock + LLMs)
 Amazon Bedrock Agents power ElderEase’s concierge, handling service requests, scheduling, and real-time decision-making.
 Uses RAG (Retrieval-Augmented Generation) with Amazon Knowledge Bases to provide personalized responses based on elderly users' preferences, past interactions, and care needs.
