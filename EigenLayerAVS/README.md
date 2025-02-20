@@ -1,4 +1,4 @@
-# Storacha and EigenLayerAVS
+# Peer to Peer Communication using Storacha backend and EigenLayerAVS
 
 This directory contains code and documentation for the Storacha backend and EigenLayerAVS tooling of the ElderEase project.
 
