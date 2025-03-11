@@ -1,5 +1,5 @@
 # Eth ElderEase
-ElderEase is an AI-powered concierge that leverages Amazon Bedrock, AgentKit, Storacha, Nethermind, EigenLayer AVS, and libp2p to provide secure, decentralized home assistance and emergency monitoring for seniors.
+ElderEase is an AI-powered concierge that leverages Amazon Bedrock, AgentKit, Storacha, Js-libp2p and Nethermind (dotnet-libp2p), EigenLayer AVS to provide secure, decentralized home assistance and emergency monitoring for seniors.
 
 🧩 Tech Stack & Architecture
 
@@ -16,7 +16,7 @@ ElderEase is an AI-powered concierge that leverages Amazon Bedrock, AgentKit, St
 - Voice-Activated Web3 Payments: We connected Alexa Skills to AgentKit, enabling seniors to pay service providers with "Alexa, confirm my home cleaning payment."
 
 3️⃣ Peer to Peer Communication between AI agents using Storacha backend
-  Secure & P2P AI Communication (Nethermind’s dotnet libp2p)
+  Secure & P2P AI Communication JS-libp2p and Nethermind’s dotnet libp2p
 - AI agents communicate directly using libp2p’s P2P networking stack instead of relying on centralized APIs.
 - Enables secure, low-latency service coordination between caregivers, cleaning staff, and maintenance teams.
 - No Centralized API Calls: Using Nethermind’s dotnet libp2p, AI agents send service requests, confirm payments, and exchange status updates without ever touching centralized cloud APIs.
